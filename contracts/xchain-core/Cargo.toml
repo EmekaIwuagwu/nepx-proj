@@ -1,0 +1,10 @@
+[package]
+name = "xchain-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+near-sdk = "5.6"
+
+[lib]
+crate-type = ["rlib"]

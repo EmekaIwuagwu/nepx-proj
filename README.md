@@ -6,7 +6,7 @@
 
 ---
 
-## � What is NEP-XChain?
+## 🎯 What is NEP-XChain?
 
 NEP-XChain solves the **fragmentation problem** in cross-chain bridging by establishing:
 
@@ -26,7 +26,7 @@ NEP-XChain solves the **fragmentation problem** in cross-chain bridging by estab
 
 ---
 
-## � Contracts
+## 📦 Contracts
 
 | Contract | Description | WASM Size |
 |----------|-------------|-----------|
@@ -37,7 +37,7 @@ NEP-XChain solves the **fragmentation problem** in cross-chain bridging by estab
 
 ---
 
-## �️ Build & Deploy
+## 🛠️ Build & Deploy
 
 ### Prerequisites
 
@@ -70,8 +70,6 @@ near call xchain-bridge.testnet new '{"owner_id":"your-account.testnet","initial
 ## 📚 API Reference
 
 ### XChainBridge
-
----
 
 #### `new` - Initialize Contract
 
@@ -272,8 +270,6 @@ near view a1b2c3d4.xchain-bridge.testnet ft_balance_of \
 
 ### XChainMessenger
 
----
-
 #### `send_message` - Send Cross-Chain Message
 
 ```bash
@@ -340,7 +336,7 @@ enum SecurityModel {
 
 ---
 
-## � Core Data Types
+## 🔗 Core Data Types
 
 ### CanonicalAssetId
 
@@ -390,7 +386,7 @@ cargo test -p integration-tests
 
 ---
 
-## � Checklist for Production
+## ✅ Production Checklist
 
 - [x] No hardcoded values
 - [x] No TODO/FIXME comments
@@ -404,12 +400,10 @@ cargo test -p integration-tests
 
 ---
 
-## � License
+## 📄 License
 
 MIT
 
 ---
 
 **Built for the NEAR Ecosystem** 🌈
-#   n e p x - p r o j  
- 
